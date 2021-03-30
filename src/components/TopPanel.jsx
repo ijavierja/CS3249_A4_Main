@@ -45,7 +45,7 @@ function TopPanel() {
                         getAriaValueText={valuetext}
                         aria-labelledby="discrete-slider-always"
                         step={10}
-                        marks={marks}
+                        marks={sizeValue}
                         valueLabelDisplay="on"
                     />
                     {/* <IonRangeSlider type={"single"} min={1} max={10} step={1} /> */}
