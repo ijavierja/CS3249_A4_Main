@@ -41,12 +41,12 @@ function TopPanel() {
                 </Col>
                 <Col>
                     <Slider
-                        defaultValue={80}
-                        getAriaValueText={valuetext}
-                        aria-labelledby="discrete-slider-always"
-                        step={10}
-                        marks={marks}
+                        step={1}
                         valueLabelDisplay="on"
+                        min={0}
+                        max={10}
+                        value={sizeValue}
+                        onChange={onSizeChange}
                     />
                     {/* <IonRangeSlider type={"single"} min={1} max={10} step={1} /> */}
                     {/* <Form>
